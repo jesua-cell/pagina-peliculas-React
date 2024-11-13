@@ -17,7 +17,7 @@ const Crear = ({setListadoState}) => {
     const conseguirDatosForm = e => {
 
         // Prevenir el funcionamiento por defecto de un formulario
-        e.preventDefault()
+        e.preventDefault();
 
         //Conseguir Datos del Formulario
         let target = e.target
